@@ -2,7 +2,7 @@
   "name": "notes-linux",
   "productName": "notes-linux",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "A clone of the Notes app from macOS for Linux/Windows.",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
