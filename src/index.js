@@ -22,7 +22,7 @@ const createWindow = () => {
 
   // mainWindow.webContents.openDevTools();
 
-mainWindow.loadURL('http://www.icloud.com');
+mainWindow.loadURL('http://www.icloud.com/notes');
 let contents = mainWindow.webContents;
 console.log(contents);
 
