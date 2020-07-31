@@ -1,8 +1,14 @@
-# Project Title
-
+# linux-notes
 A Linux (and Windows) application to replicate the Notes app from macOS. This is done by using Apple's iCloud service and Electron.
+Note: This software is not affiliated with Apple
 
-Note: This software is not affiliated with Apple :+1:
+## Downloads
+Linux
+- .deb
+- .rpm
+
+Windows
+- .exe
 
 ## Getting Started
 
@@ -10,11 +16,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-First, install a recent version of Node.js. I reccomend you download the latest 
+First, install a recent version of [Node.js](https://nodejs.org/en/download/). I reccomend downloading the `Current` or `LTS` version. Once downloaded, run through the installer and confirm everything works by typing the following command in Terminal.
+```
+# This command should print the version of Node.js
+node -v
+# this command should print the version of npm
+npm -v
+```
 
-```
-Give examples
-```
+You will also require a code editor such as Microsoft's [Visual Studio Code](https://code.visualstudio.com/download).
 
 ### Installing
 
