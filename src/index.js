@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow , Menu } = require('electron');
 const path = require('path');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -11,13 +11,23 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    nodeIntegration: true,
+    frame: false, //Hide the menubar, min/max buttons
   });
 
-  // and load the index.html of the app.
-  mainWindow.loadFile(path.join(__dirname, 'index.html'));
+  // // and load the index.html of the app.
+  // mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
-  // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // Open the chromeium dev tools
+
+  // mainWindow.webContents.openDevTools();
+
+mainWindow.loadURL('http://www.icloud.com');
+let contents = mainWindow.webContents;
+console.log(contents);
+
+
+
 };
 
 // This method will be called when Electron has finished
