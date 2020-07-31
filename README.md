@@ -57,6 +57,8 @@ npm start
 You should be prompted with the app running in the [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)) framework. 
 After making changes to the program in your editor, run `rs` in the active terminal running the app to restart the application and see the changes take effect.
 
+Note: I'd reccomend looking at the [Electron Architecture](https://www.electronjs.org/docs/tutorial/application-architecture) to understand how the code works.
+
 ## Deployment
 
 To deploy your build on a live system, simply type the following in your terminal.
