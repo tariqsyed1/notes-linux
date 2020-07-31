@@ -1,5 +1,7 @@
 # linux-notes
 A Linux (and Windows) application to replicate the Notes app from macOS. This is done by using Apple's iCloud service and Electron.
+
+
 Note: This software is not affiliated with Apple
 
 ## Downloads
