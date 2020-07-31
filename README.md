@@ -1,3 +1,4 @@
+
 # linux-notes
 A Linux (and Windows) application to replicate the Notes app from macOS. This is done by using Apple's iCloud service and Electron.
 
@@ -13,7 +14,10 @@ Windows
 - .exe
 
 ## Usage
-Open the application. On Linux, by default it will install to your `/usr/share/applications` folder
+On Linux, by default the application will install to your `/usr/share/applications` folder.
+On Windows, you can find it on your `C:/User/Desktop` folder.
+
+After opening the app, sign in with your Apple ID. You may be prompted for two factor authentication. Upon success, the app will open the notes application with your iCloud data.
 
 ## Getting Started
 
@@ -33,72 +37,51 @@ You will also require a code editor such as Microsoft's [Visual Studio Code](htt
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To get the development environment running, clone the repository to your computer using git.
 
 ```
-Give the example
+git clone https://github.com/tariqsyed1/notes-linux.git
 ```
 
-And repeat
+Change into the notes-linux directory in Terminal and open the notes-linux directory in your code editor.
 
 ```
-until finished
+cd notes-linux
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Start the application with Electron using npm
 
 ```
-Give an example
+npm start
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+You should be prompted with the app running in the [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)) framework. 
+After making changes to the program in your editor, run `rs` in the active terminal running the app to restart the application and see the changes take effect.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To deploy your build on a live system, simply type the following in your terminal.
+```
+# Change to directory
+cd notes-linux
+# Use npm to create distributable 
+npm run make
+# ...output...
+```
+`npm run make` will create a distributable for the system you're running it on. The file can be found in the /out directory created after the command completes.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Electron](https://www.electronjs.org/) - The web framework used
+* [Nodejs](https://nodejs.org) - Runtime environment
+* [iCloud](https://apple,ca/icloud) - For the notes data
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* [Tariq Syed](https://github.com/tariqsyed1)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Enjoy! :+1:
