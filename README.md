@@ -19,6 +19,9 @@ On Windows, you can find it on your `C:/User/Desktop` folder.
 
 After opening the app, sign in with your Apple ID. You may be prompted for two factor authentication. Upon success, the app will open the notes application with your iCloud data.
 
+## Screenshots
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
