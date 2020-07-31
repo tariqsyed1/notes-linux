@@ -12,6 +12,9 @@ Linux
 Windows
 - .exe
 
+## Usage
+Open the application. On Linux, by default it will install to your `/usr/share/applications` folder
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
