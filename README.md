@@ -7,11 +7,7 @@ Note: This software is not affiliated with Apple
 
 ## Downloads
 Linux
-- .deb
-- .rpm
-
-Windows
-- .exe
+- [.deb](http://www.mediafire.com/file/2o1qiumu1lq2bqs/notes-linux_1.0.0_amd64.deb/file)
 
 ## Usage
 On Linux, by default the application will install to your `/usr/share/applications` folder.
